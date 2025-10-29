@@ -6,7 +6,7 @@ try:
         passwd = "G7v!rX9#pL2@qT5z",
         database = "alx_book_store",
     )
-    print("Database 'alx_book_store' created successfully")
+    print("CREATE DATABASE IF NOT EXISTS alx_book_store")
 except mysql.connector.Error as err:
     print(f"Error: {err}")
 
